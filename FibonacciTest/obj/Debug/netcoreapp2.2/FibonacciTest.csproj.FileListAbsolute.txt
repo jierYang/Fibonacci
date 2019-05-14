@@ -1,0 +1,17 @@
+/Users/jiyang/Documents/learn/Refactor/Fibonacci/FibonacciTest/bin/Debug/netcoreapp2.2/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/jiyang/Documents/learn/Refactor/Fibonacci/FibonacciTest/bin/Debug/netcoreapp2.2/xunit.runner.reporters.netcoreapp10.dll
+/Users/jiyang/Documents/learn/Refactor/Fibonacci/FibonacciTest/bin/Debug/netcoreapp2.2/xunit.runner.utility.netcoreapp10.dll
+/Users/jiyang/Documents/learn/Refactor/Fibonacci/FibonacciTest/bin/Debug/netcoreapp2.2/FibonacciTest.deps.json
+/Users/jiyang/Documents/learn/Refactor/Fibonacci/FibonacciTest/bin/Debug/netcoreapp2.2/FibonacciTest.runtimeconfig.json
+/Users/jiyang/Documents/learn/Refactor/Fibonacci/FibonacciTest/bin/Debug/netcoreapp2.2/FibonacciTest.runtimeconfig.dev.json
+/Users/jiyang/Documents/learn/Refactor/Fibonacci/FibonacciTest/bin/Debug/netcoreapp2.2/FibonacciTest.dll
+/Users/jiyang/Documents/learn/Refactor/Fibonacci/FibonacciTest/bin/Debug/netcoreapp2.2/FibonacciTest.pdb
+/Users/jiyang/Documents/learn/Refactor/Fibonacci/FibonacciTest/bin/Debug/netcoreapp2.2/Fibonacci.dll
+/Users/jiyang/Documents/learn/Refactor/Fibonacci/FibonacciTest/bin/Debug/netcoreapp2.2/Fibonacci.pdb
+/Users/jiyang/Documents/learn/Refactor/Fibonacci/FibonacciTest/obj/Debug/netcoreapp2.2/FibonacciTest.csprojAssemblyReference.cache
+/Users/jiyang/Documents/learn/Refactor/Fibonacci/FibonacciTest/obj/Debug/netcoreapp2.2/FibonacciTest.csproj.CoreCompileInputs.cache
+/Users/jiyang/Documents/learn/Refactor/Fibonacci/FibonacciTest/obj/Debug/netcoreapp2.2/FibonacciTest.AssemblyInfoInputs.cache
+/Users/jiyang/Documents/learn/Refactor/Fibonacci/FibonacciTest/obj/Debug/netcoreapp2.2/FibonacciTest.AssemblyInfo.cs
+/Users/jiyang/Documents/learn/Refactor/Fibonacci/FibonacciTest/obj/Debug/netcoreapp2.2/FibonacciTest.csproj.CopyComplete
+/Users/jiyang/Documents/learn/Refactor/Fibonacci/FibonacciTest/obj/Debug/netcoreapp2.2/FibonacciTest.dll
+/Users/jiyang/Documents/learn/Refactor/Fibonacci/FibonacciTest/obj/Debug/netcoreapp2.2/FibonacciTest.pdb

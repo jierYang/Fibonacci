@@ -1,0 +1,55 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/jiyang/Documents/learn/Refactor/Fibonacci/FibonacciTest/FibonacciTest.csproj",
+    "projectName": "FibonacciTest",
+    "projectPath": "/Users/jiyang/Documents/learn/Refactor/Fibonacci/FibonacciTest/FibonacciTest.csproj",
+    "outputPath": "/Users/jiyang/Documents/learn/Refactor/Fibonacci/FibonacciTest/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "/Users/jiyang/Documents/learn/Refactor/Fibonacci/Fibonacci/Fibonacci.csproj": {
+            "projectPath": "/Users/jiyang/Documents/learn/Refactor/Fibonacci/Fibonacci/Fibonacci.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "xunit": {
+          "target": "Package",
+          "version": "[2.4.1, )"
+        },
+        "xunit.runner.visualstudio": {
+          "target": "Package",
+          "version": "[2.4.1, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
