@@ -9,19 +9,18 @@ namespace Fibonacci
         {
             var result = new List<int>();
 
-            if (number < 1)
+            for (var i = 0; i < number; i++)
             {
-                return null;
-            }
-
-            result.Add(1);
-
-            if(number.Equals(2))
-            {
-                result.Add(1);
+                var value = GetValue(i);
+                
+                result.Add(value);
             }
 
             return result;
+        }
+
+        private static int GetValue(int n) {
+            return (n < 2)? 1 : GetValue(n - 1) + GetValue(n - 2);
         }
     }
 }

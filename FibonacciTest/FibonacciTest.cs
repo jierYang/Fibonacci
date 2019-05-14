@@ -23,5 +23,15 @@ namespace FibonacciTest
 
             Assert.Equal(result[1], 1);
         }
+        
+        [Fact]
+        public void Input3ShouldGet2()
+        {
+            var number = 3;
+
+            var result = Fibonacci.Fibonacci.GetFibonacciSequence(number);
+
+            Assert.Equal(result[2], 2);
+        }
     }
 }
