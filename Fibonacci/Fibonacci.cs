@@ -1,26 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Numerics;
 
 namespace Fibonacci
 {
     public class Fibonacci
     {
-        public static IList<int> GetFibonacciSequence(int number)
+        public static IList<BigInteger> GetFibonacciSequence(int number)
         {
-            var result = new List<int>();
+            var result = new List<BigInteger>();
 
             for (var i = 0; i < number; i++)
             {
-                var value = GetValue(i);
-                
-                result.Add(value);
+                if (i < 2)
+                {
+                    result.Add(1);
+                }
+
+                else
+                {
+                    result.Add(result[i-1]+result[i-2]);
+                }
             }
 
             return result;
-        }
-
-        private static int GetValue(int n) {
-            return (n < 2)? 1 : GetValue(n - 1) + GetValue(n - 2);
         }
     }
 }

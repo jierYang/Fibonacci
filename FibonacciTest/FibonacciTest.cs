@@ -1,4 +1,5 @@
-﻿using Xunit;
+﻿using System;
+using Xunit;
 
 namespace FibonacciTest
 {
@@ -11,9 +12,9 @@ namespace FibonacciTest
 
             var result = Fibonacci.Fibonacci.GetFibonacciSequence(number);
 
-            Assert.Equal(result[0], 1);
+            Assert.Equal(1,result[0]);
         }
-        
+
         [Fact]
         public void Input2ShouldGet1()
         {
@@ -21,9 +22,9 @@ namespace FibonacciTest
 
             var result = Fibonacci.Fibonacci.GetFibonacciSequence(number);
 
-            Assert.Equal(result[1], 1);
+            Assert.Equal(1,result[1]);
         }
-        
+
         [Fact]
         public void Input3ShouldGet2()
         {
@@ -31,7 +32,17 @@ namespace FibonacciTest
 
             var result = Fibonacci.Fibonacci.GetFibonacciSequence(number);
 
-            Assert.Equal(result[2], 2);
+            Assert.Equal(2,result[2]);
+        }
+
+        [Fact]
+        public void Input120ShouldGetFib()
+        {
+            var number = 120;
+
+            var result = Fibonacci.Fibonacci.GetFibonacciSequence(number);
+
+            Assert.Equal("5358359254990966640871840", result[119].ToString());
         }
     }
 }
