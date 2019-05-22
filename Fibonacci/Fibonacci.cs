@@ -12,14 +12,14 @@ namespace Fibonacci
 
             for (var i = 0; i < number; i++)
             {
-                if (i < 2)
+                if (i < 3)
                 {
                     result.Add(1);
                 }
 
                 else
                 {
-                    result.Add(result[i-1]+result[i-2]);
+                    result.Add(result[i - 1] + result[i - 2] + result[i - 3]);
                 }
             }
 

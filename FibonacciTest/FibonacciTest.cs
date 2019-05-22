@@ -12,7 +12,7 @@ namespace FibonacciTest
 
             var result = Fibonacci.Fibonacci.GetFibonacciSequence(number);
 
-            Assert.Equal(1,result[0]);
+            Assert.Equal(1, result[0]);
         }
 
         [Fact]
@@ -22,17 +22,37 @@ namespace FibonacciTest
 
             var result = Fibonacci.Fibonacci.GetFibonacciSequence(number);
 
-            Assert.Equal(1,result[1]);
+            Assert.Equal(1, result[1]);
         }
 
         [Fact]
-        public void Input3ShouldGet2()
+        public void Input3ShouldGet1()
         {
             var number = 3;
 
             var result = Fibonacci.Fibonacci.GetFibonacciSequence(number);
 
-            Assert.Equal(2,result[2]);
+            Assert.Equal(1, result[2]);
+        }
+
+        [Fact]
+        public void Input4ShouldGet3()
+        {
+            var number = 4;
+
+            var result = Fibonacci.Fibonacci.GetFibonacciSequence(number);
+
+            Assert.Equal(3, result[3]);
+        }
+        
+        [Fact]
+        public void Input12ShouldGetFib()
+        {
+            var number = 12;
+
+            var result = Fibonacci.Fibonacci.GetFibonacciSequence(number);
+
+            Assert.Equal(355, result[11]);
         }
 
         [Fact]
@@ -42,7 +62,7 @@ namespace FibonacciTest
 
             var result = Fibonacci.Fibonacci.GetFibonacciSequence(number);
 
-            Assert.Equal("5358359254990966640871840", result[119].ToString());
+            Assert.Equal(result[116] + result[117] + result[118], result[119]);
         }
     }
 }
